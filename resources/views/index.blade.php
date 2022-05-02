@@ -1,5 +1,5 @@
 @extends('layout')
-
+@section('title', 'さとうちえり')
 {{-- メインコンテンツ --}}
 @section('contets')
         <h1>ログイン</h1>
