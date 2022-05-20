@@ -9,6 +9,7 @@ use App\Http\Controllers\Admin\AuthController as AdminAuthController;
 use App\Http\Controllers\Admin\HomeController as AdminHomeController;
 use App\Http\Controllers\Admin\UserController as AdminUserController;
 use App\Http\Controllers\CompletedTaskController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +21,10 @@ use App\Http\Controllers\CompletedTaskController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+// 会員登録
+Route::get('/user/register', [UserController::class, 'index']);
+Route::post('/user/register', [UserController::class, 'register']);
 
 // タスク管理システム
 Route::get('/', [AuthController::class, 'index'])->name('front.index');
