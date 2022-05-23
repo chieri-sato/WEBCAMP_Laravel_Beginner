@@ -42,4 +42,8 @@ var_dump($sql);
         return view('task.completed_list', ['list' => $list]);
     }
 
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> 8020bb5ec4afb66ab04cf85c2c7416dca10fc15b
