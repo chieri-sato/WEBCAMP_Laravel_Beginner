@@ -46,8 +46,8 @@
         <menu label="リンク">
         <a href="/logout">ログアウト</a><br>
         </menu>
-<<<<<<< HEAD
+
 @endsection
-=======
-@endsection
->>>>>>> 8020bb5ec4afb66ab04cf85c2c7416dca10fc15b
+
+
+
